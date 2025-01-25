@@ -1,0 +1,8 @@
+# This file contains only important libraries required for the project.
+seaborn==0.13.2
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.9.2
+joblib==1.4.2
+geopandas==1.0.1
+scikit-learn==1.5.1
