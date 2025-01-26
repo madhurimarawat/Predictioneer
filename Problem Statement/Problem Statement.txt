@@ -10,9 +10,11 @@ https://docs.google.com/spreadsheets/d/1D1ssBh24hHhvofJr1WBtnmjgkIKPqJ1t/edit?us
 * There are rows with missing latitudes and longitudes ignore those 
 * You have CFR data in all rows and deaths in a few and confirmed cases unknown 
 * Deaths you have to predict the gaps and as soon as you have the data for deaths you can get the confirmed cases from CFR ratio 
-*  Any exteranl factors that you might think may affect the prediction you can use like temperature or so but you have to provide a clear explaination for the same
+*  (Optional )Any external factors that you might think may affect the prediction you can use like temperature or so but you have to provide a clear explaination for the same. don't forget to provide references for the same in the explaination.
 * Case fatality ratio= (death / confirmed )* 100
-* Provide a single CSV file with all the predictions 
+* Provide a single CSV file  containing predictions of CFR, deaths, confirmed cases on test data points 
+* Prediction evaluation will be done solely on test data not on train data 
+* You should well explain the logic behind your code in separate file
 
 The submission deadline is 28th January
 
